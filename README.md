@@ -72,6 +72,48 @@ If rural cities were marketed to, to recruit more drivers, I believe the total f
   
   2. Variance in ride fare data.
 
-The standard deviation in ubran city fares is comparatively larger than suburban and rural cities. This larger deviation means there are fares that are more spread out from the center, or mean. Standard deviation is sensitive to far left and far right values and I believe the minimum 
+The standard deviation in urban city fares is comparatively larger than suburban and rural cities as seen below in the summary statistics listed. This larger deviation means there are fares that are more spread out from the center, or mean. Standard deviation is sensitive to far left and far right values and I believe the rides with first quartile and below fares should be investigated and modified in a trial to raise profits. The minimum ride fare of $4.05 and large standard deviation of +/-11.74 from the mean of 24.53 led me to this idea.
+
+Summary Statistics of Urban Cities
+count    1625.000000
+mean       24.525772
+std        11.738649
+min         4.050000
+25%        14.550000
+50%        24.640000
+75%        34.580000
+max        44.970000
+Name: fare, dtype: float64
+
+Summary Statistics of Suburban Cities
+count    625.000000
+mean      30.970128
+std       10.677508
+min       12.050000
+25%       21.970000
+50%       30.750000
+75%       39.830000
+max       49.960000
+Name: fare, dtype: float64
+
+Summary Statistics of Rural Cities
+count    125.000000
+mean      34.623440
+std       14.558046
+min       10.110000
+25%       19.900000
+50%       37.050000
+75%       47.070000
+max       58.550000
+Name: fare, dtype: float64
   
-  3. AA
+  3. Driver count in certain cities and associated wait times.
+
+When looking at the Pyber Ride-Sharing Data (2019) scatterplot (Figure 1), it can be seen that there are some cities that have a high number of rides (further to the right on the x-axis) but the associated bubble is small (city has a small driver count). For example:
+
+    # Get the city that matches 35.
+    urban_city_outlier = urban_ride_count[urban_ride_count==35].index[0]
+    print(f"{urban_city_outlier} has the third highest rider count.")
+    North Jason has the third highest rider count.
+
+The urban city North Jason also has an urban_driver_count from urban_driver_count = urban_cities_df.groupby(["city"]).mean()["driver_count"] of 6. If there are high number of rides with such few drivers, are the riders dealing with long wait to times to find a driver? How would the number of rides and the average fare change by adding drivers to these relatively smaller driver count cities?
