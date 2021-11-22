@@ -2,6 +2,7 @@
 
 ##
 Overview of Analysis
+
 ###
 Upon joining the pseudo ride-sharing company named PyBer, I was tasked to read into two large .csv datasets and merge them into one dataframe for further analysis. The complete parent dataframe contained the columns: city, date, fare, ride_id, driver_count, and type. From the parent dataframe columns, new dataframes were created to be able to track metrics, obtain measures of central tendency, and plot meaningful, visual data. In total, 7 figures were created for the ride-sharing analysis. 
 
