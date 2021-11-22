@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-### Upon joining the pseudo ride-sharing company named PyBer, I was tasked to read into two large .csv datasets and merge them into one dataframe for further analysis. The complete parent dataframe contained the columns: city, date, fare, ride_id, driver_count, and type. From the parent dataframe columns, new dataframes were created to be able to track metrics, obtain measures of central tendency, and plot meaningful, visual data. In total, 7 figures were created for the ride-sharing analysis and an additional figure was created for a challenge assignment.
+### Upon joining the pseudo ride-sharing company named PyBer, I was tasked to read into two large .csv datasets and merge them into one dataframe for further analysis. The complete parent dataframe contained the columns: city, date, fare, ride_id, driver_count, and type. From the parent dataframe columns, new dataframes were created to be able to track metrics, obtain measures of central tendency, and plot meaningful, visual data. 7 figures were created for the ride-sharing analysis, 1 screenshot of the ride-sharing data summary dataframe is included, and 1 Figure for the "Total Fare by City Type." for the dates of 01/01/2019 to 04/28/2019.
 
 ## Figures
 
@@ -34,7 +34,7 @@ A bubble chart was created that overlayed three bubble charts into one, containi
 ### To round off this PyBer company assignment, we were tasked to create a summary dataframe of the ride-sharing data by city type as well as create a multiple-line graph that showed the total weekly fares for each city type within a specific date range.
 
 ### Ride-Sharing Data By City Type Summary DataFrame
-![image]()
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/ae50900f91bd8d80b442610a111b8e2e41449e02/ride_sharing_summary_df.png)
 
 ### Figure 8.
 ![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/PyBer_fare_summary.png)
