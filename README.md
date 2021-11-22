@@ -12,3 +12,29 @@ A bubble chart was created that overlayed three bubble charts into one, containi
 ![image](https://github.com/derekhuggens/PyBer_Analysis/blob/a4167dfe92cc4c339840c20f49fcb79f72133572/analysis/Fig1.png)
 
 ### Figure 2.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig2.png)
+
+### Figure 3.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig3.png)
+
+### Figure 4.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig4.png)
+
+### Figure 5.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig5.png)
+
+### Figure 6.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig6.png)
+
+### Figure 7.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/Fig7.png)
+
+## Challenge Assignment
+
+### To round off this PyBer company assignment, we were tasked to create a summary dataframe of the ride-sharing data by city type as well as create a multiple-line graph that showed the total weekly fares for each city type within a specific date range.
+
+### Ride-Sharing Data By City Type Summary DataFrame
+![image]()
+
+### Figure 8.
+![image](https://github.com/derekhuggens/PyBer_Analysis/blob/babc1eff02d20967596ba9fd73dc074d7042d797/analysis/PyBer_fare_summary.png)
