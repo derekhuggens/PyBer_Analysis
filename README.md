@@ -116,4 +116,4 @@ When looking at the Pyber Ride-Sharing Data (2019) scatterplot (Figure 1), it ca
     print(f"{urban_city_outlier} has the third highest rider count.")
     North Jason has the third highest rider count.
 
-The urban city North Jason also has an urban_driver_count from urban_driver_count = urban_cities_df.groupby(["city"]).mean()["driver_count"] of 6. If there are high number of rides with such few drivers, are the riders dealing with long wait to times to find a driver? How would the number of rides and the average fare change by adding drivers to these relatively smaller driver count cities?
+The urban city North Jason also has an urban_driver_count from urban_driver_count = urban_cities_df.groupby(["city"]).mean()["driver_count"] of 6. If there are a high number of rides with such few drivers, are the riders dealing with long wait to times to find a driver? How would the number of rides and the average fare change by adding drivers to these relatively smaller driver count cities?
