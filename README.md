@@ -10,3 +10,5 @@
 A bubble chart was created that overlayed three bubble charts into one, containing: y-axis as "Average Fare ($)", x-axis as "Total Number of Rides (Per City)", title: "PyBer Ride-Sharing Data (2019)", a legend with a title of "City Types," for the three color specific city types (Urban, Suburban, Rural), and a chart note of "Note: Circle size correlates with driver count per city."
 
 ![image](https://github.com/derekhuggens/PyBer_Analysis/blob/a4167dfe92cc4c339840c20f49fcb79f72133572/analysis/Fig1.png)
+
+### Figure 2.
